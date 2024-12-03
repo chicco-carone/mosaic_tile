@@ -1,2 +1,1 @@
-# colour-changing-sensor-tile
-A repository for a custom Lovelace card that dynamically changes color based on value
+This repository is empty. Any task executed on it should be considered a new capability and needs to be created.
