@@ -4,6 +4,8 @@ This custom component creates a Lovelace card that displays a value and changes 
 
 ## Installation
 
+### Manual Installation
+
 1. Download the `mosaic_tile` folder and place it in your `custom_components` directory.
 2. Add the following to your `configuration.yaml` file:
    ```yaml
@@ -13,6 +15,22 @@ This custom component creates a Lovelace card that displays a value and changes 
          type: module
    ```
 3. Restart Home Assistant.
+
+### HACS Installation
+
+1. Go to the HACS settings in Home Assistant.
+2. Click on "Custom repositories".
+3. Add the repository URL `https://github.com/githubnext/workspace-blank` and select the category "Lovelace".
+4. Click "Add".
+5. Find the "Mosaic Tile" custom component in the HACS store and click "Install".
+6. Add the following to your `configuration.yaml` file:
+   ```yaml
+   lovelace:
+     resources:
+       - url: /hacsfiles/mosaic_tile/mosaic_tile.js
+         type: module
+   ```
+7. Restart Home Assistant.
 
 ## Configuration
 
